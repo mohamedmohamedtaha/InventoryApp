@@ -45,9 +45,9 @@ public class MainActivity extends AppCompatActivity {
         //Insert a new row in the database,  returning the ID of that new row.
         long newRowId = database.insert(StoreEntry.TABLE_NAME, null, values);
         if (newRowId != -1) {
-            Toast.makeText(getApplicationContext(), "Insertd Row ", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Inserted Row ", Toast.LENGTH_LONG).show();
         } else {
-            Toast.makeText(getApplicationContext(), "Error  ", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_LONG).show();
 
         }
 

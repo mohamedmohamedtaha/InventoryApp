@@ -11,7 +11,6 @@ import com.example.manasatpc.inventoryapp.data.StoreContract.StoreEntry;
  */
 
 public class StoreDPHelper extends SQLiteOpenHelper {
-    public static final String LOG_TAG = StoreDPHelper.class.getSimpleName();
 
     //name of the database file
     private static final String DATABASE_NAME = "store.db";
